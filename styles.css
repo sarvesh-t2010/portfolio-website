@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    transition: background 0.3s, color 0.3s;
+    transition: background 1s, color 1s;
 	background: url('https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png') no-repeat center center fixed;
 	background-size: cover;
     color: #333;
@@ -15,6 +15,7 @@ body {
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	transition: background 1s, box-shadow 1s;
 }
 
 .profile-pic {
@@ -28,6 +29,7 @@ body {
 }
 
 .profile-pic:hover {
+	box-shadow: 0 0 15px #4897FE, 0 0 30px #4897FE, 0 0 45px #4897FE;
 	transform: scale(1.2);
 	z-index: 2;
 }
@@ -39,13 +41,14 @@ body {
     background: #007bff;
     color: white;
     border-radius: 5px;
+	transition: 0.5s;
 }
 
 .btn-scrat {
     padding: 10px;
     cursor: pointer;
     border: none;
-    background: #EAB308;
+    background: #C18F06;
     color: white;
     border-radius: 5px;
 	transition: 0.5s;
@@ -55,19 +58,21 @@ body {
     padding: 10px;
     cursor: pointer;
     border: none;
-    background: #0969da;
+    background: #2FBB4F;
     color: white;
     border-radius: 5px;
 	transition: 0.5s;
 }
 
 .btn-git:hover {
-	background: #035fc7;
+	box-shadow: 0 0 10px #2FE64F, 0 0 20px #2FE64F, 0 0 30px #2FE64F;
+	background: #2FA24F;
 	transform: scale(1.2);
 	z-index: 2;
 }
 
 .btn-scrat:hover {
+	box-shadow: 0 0 10px #FAAF4B, 0 0 20px #FAAF4B, 0 0 30px #FAAF4B;
 	background: #CA8A04;
 	transform: scale(1.2);
 	z-index: 2;
@@ -75,6 +80,8 @@ body {
 
 .btn-dark:hover {
     background: #0056b3;
+	transform: scale(1.2);
+	z-index: 2;
 }
 
 ul {
